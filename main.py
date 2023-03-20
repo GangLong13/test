@@ -3,7 +3,7 @@ p = []
 count = 0
 for i in k:
     p.append(int(i))
-for j in range(1, len(p) + 1):
+for j in range(1, len(p)):
     if p[j] > p[j - 1]:
         count += 1
 
